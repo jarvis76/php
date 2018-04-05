@@ -58,6 +58,7 @@ if (isset($_POST['frmRegistration'])){
 
         $message .= "</ul>"; 
         echo $message;
+        include "frmRegistration.php";
     }
     
     else {
