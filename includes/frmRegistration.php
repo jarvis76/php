@@ -1,15 +1,15 @@
 <form method="post" action="#">
     <div>
         <label for="nom">Nom&nbsp;:</label> 
-        <input type="text" name="nom"/>
+        <input type="text" name="nom" value="<?php if(isset($nom)) echo $nom; ?>"/>
     </div>
     <div>
         <label for="prenom">Prenom&nbsp;:</label> 
-        <input type="text" name="prenom"/>
+        <input type="text" name="prenom" value="<?php if(isset($prenom)) echo $prenom; ?>"/>
     </div>
     <div>
         <label for="mail">Mail&nbsp;:</label> 
-        <input type="text" name="mail"/>
+        <input type="text" name="mail" value="<?php if(isset($mail)) echo $mail; ?>"/>
     </div>
     <div>
         <label for="mdp">Mot de passe&nbsp;:</label> 
