@@ -86,8 +86,6 @@ if (isset($_POST['frmRegistration'])){
                 }
                 mysqli_close($connection);
         
-
-        
         }
     }
 }
