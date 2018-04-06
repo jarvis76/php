@@ -5,6 +5,7 @@
             <li><a href="index.php?page=registration">Inscription</a></li>
             <li><a href="index.php?page=contact">Contact</a></li>
             <li><a href="index.php?page=news">News</a></li>
+            <li><a href="index.php?page=login">Login</a></li>
         </ul>
     </nav>
 </header>
